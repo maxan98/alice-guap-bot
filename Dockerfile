@@ -6,4 +6,4 @@ COPY . /root
 EXPOSE 443
 
 RUN pip install -r requirements.txt
-CMD FLASK_APP=api.py flask run --host="::"
+CMD pyrhon3 run.py
